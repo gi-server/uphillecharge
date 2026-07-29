@@ -30,7 +30,7 @@ export const locationData = [
     openHours: "24 Hours",
     contact: "+91 7302357399",
     mapEmbed:
- "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.7158609440384!2d77.13444420037408!3d28.701272220217167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03002ad32d35%3A0x440a17e62b8cdf8b!2sREACH%20Charging%20Station!5e1!3m2!1sen!2sin!4v1780981358688!5m2!1sen!2sin"
+ "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.0211108540093!2d77.08360720000002!3d28.663377500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d056788484dff%3A0xa9effa0e6892489a!2sREACH%20Paschim%20Vihar%20EV%20charging%20Station%20%7C%2060kW!5e1!3m2!1sen!2sin!4v1785317713997!5m2!1sen!2sin"
   },
 
   {
@@ -47,7 +47,7 @@ export const locationData = [
     openHours: "Coming Soon",
     contact: "+91 7302357399",
     mapEmbed:
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.3525166972877!2d79.1279517!3d29.140201200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a6585c6d0327f%3A0x1e180c6cf870615d!2sMaharaja%20Hotel%20%26%20Restaurant%20(%20PALACE%20)!5e1!3m2!1sen!2sin!4v1781017200091!5m2!1sen!2sin"
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4504.743812214031!2d79.12816300156815!3d29.140767540126376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a6557d508748d%3A0x84f4d970a6cb495c!2sUphill%20E%20Charge%20-EV%20Charging%20Station!5e1!3m2!1sen!2sin!4v1785317352640!5m2!1sen!2sin"
   },
 
   {
@@ -81,6 +81,22 @@ export const locationData = [
     openHours: "Coming Soon",
     contact: " +91 7302357399",
     mapEmbed:
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.368225023838!2d79.5580375!3d29.2363401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09b939fce8a85%3A0xa457295fff2931a!2sHotel%20Kamal%20Vintage%20And%20Restaurant!5e1!3m2!1sen!2sin!4v1781017472526!5m2!1sen!2sin"
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.368225023838!2d79.5580375!3d29.2363401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09b939fce8a85%3A0xa457295fff2931a!2sHotel%20Kamal%20Vintage%20And%20Restaurant!5e1!3m2!1sen!2sin!4v1785317818725!5m2!1sen!2sin"
+  },
+  {
+    id: 6,
+    city: "Kainchi Dham, Nainital ",
+    place: "Baba Ki Rasoi",
+    image: "/bh2.png",
+    description:
+      "Modern charging facility at Kainchi Dham with comfortable waiting area.",
+    chargers: 4,
+    chargerType: "CCS2 Fast Charger",
+    chargingSpeed: "75 kW",
+    parking: "Available",
+    openHours: "Coming Soon",
+    contact: " +91 7302357399",
+    mapEmbed:
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.0269980993203!2d79.5155936!3d29.407692099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a3ef4a266c31%3A0xfb6afa37b3a2bc7f!2sBaba%20Ki%20Rasoi!5e1!3m2!1sen!2sin!4v1785318017667!5m2!1sen!2sin"
   },
 ];
