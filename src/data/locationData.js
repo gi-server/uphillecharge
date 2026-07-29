@@ -37,7 +37,7 @@ export const locationData = [
     id: 3,
     city: "Bazpur, Udham Singh Nagar",
     place: "Maharaja Hotel",
-    image: "/bh3.png",
+    image: "/c1.jpeg",
     description:
       "Convenient EV charging station situated at Maharaja Hotel, suitable for long-distance travelers.",
     chargers: 5,
@@ -61,7 +61,7 @@ export const locationData = [
     chargerType: "CCS2 Fast Charger",
     chargingSpeed: "75 kW",
     parking: "coming soon",
-    openHours: "9 AM - 10 PM",
+    openHours: "24 hours",
     contact: " +91 7302357399",
     mapEmbed:
   "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1585.6546002072812!2d79.643039!3d29.590123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0b0b66bac6207%3A0x727b5aab96255bed!2sRaghunath%20City%20Mall%20-%20RCM!5e1!3m2!1sen!2sin!4v1781017278495!5m2!1sen!2sin"
@@ -78,7 +78,7 @@ export const locationData = [
     chargerType: "CCS2 Fast Charger",
     chargingSpeed: "75 kW",
     parking: "Available",
-    openHours: "Coming Soon",
+    openHours: "Currently Under Construction",
     contact: " +91 7302357399",
     mapEmbed:
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.368225023838!2d79.5580375!3d29.2363401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09b939fce8a85%3A0xa457295fff2931a!2sHotel%20Kamal%20Vintage%20And%20Restaurant!5e1!3m2!1sen!2sin!4v1785317818725!5m2!1sen!2sin"

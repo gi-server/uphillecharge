@@ -2,7 +2,7 @@ import StatCard from "./StatCard";
 
 const stats = [
   {
-    number: "1210+",
+    number: "2450+",
     title: "Sessions Served",
   },
   {
@@ -10,7 +10,7 @@ const stats = [
     title: "EV Stations",
   },
   {
-    number: "590+",
+    number: "18,860 kg",
     title: "CO2 Emission preserved",
   },
 ];
