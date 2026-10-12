@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 
 const StatCard = ({ number, title }) => {
@@ -21,3 +23,4 @@ const StatCard = ({ number, title }) => {
 };
 
 export default StatCard;
+

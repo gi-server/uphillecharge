@@ -1,16 +1,18 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { IoLocationOutline } from "react-icons/io5";
 import { HiArrowRight } from "react-icons/hi";
-import { useNavigate } from "react-router-dom";
+import { useRouter } from "next/navigation";
 
 const LocationCard = ({ id, image, city, place }) => {
-  const navigate = useNavigate();
+  const router = useRouter();
 
   return (
     <motion.div
       whileHover={{ y: -10 }}
       transition={{ duration: 0.4 }}
-      onClick={() => navigate(`/place/${id}`)}
+      onClick={() => router.push(`/place/${id}`)}
       className="group relative overflow-hidden rounded-[28px] cursor-pointer"
     >
       <img
@@ -28,9 +30,7 @@ const LocationCard = ({ id, image, city, place }) => {
             <span className="text-white text-sm">{place}</span>
           </div>
 
-          <h3 className="text-white text-2xl font-semibold">
-            {city}
-          </h3>
+          <h3 className="text-white text-2xl font-semibold">{city}</h3>
         </div>
 
         <button className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-lg border border-white/20 text-white flex items-center justify-center group-hover:bg-[#95FF00] group-hover:text-black transition-all duration-300">
@@ -42,3 +42,4 @@ const LocationCard = ({ id, image, city, place }) => {
 };
 
 export default LocationCard;
+

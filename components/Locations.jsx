@@ -1,15 +1,13 @@
+"use client";
+
 import { motion } from "framer-motion";
 import LocationCard from "./LocationCard";
-import { locationData } from "../data/locationData";
+import { locationData } from "@/data/locationData";
 
 const Locations = () => {
   return (
-    <section
-      id="locations"
-      className="bg-[#020625] py-28"
-    >
+    <section id="locations" className="bg-[#020625] py-28">
       <div className="max-w-7xl mx-auto px-6">
-
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -36,10 +34,10 @@ const Locations = () => {
             />
           ))}
         </div>
-
       </div>
     </section>
   );
 };
 
 export default Locations;
+

@@ -1,15 +1,6 @@
-import {
-  FaChargingStation,
-  FaLeaf,
-} from "react-icons/fa";
-
-import {
-  MdSpeed,
-  MdPhoneIphone,
-} from "react-icons/md";
-
+import { FaChargingStation, FaLeaf } from "react-icons/fa";
+import { MdSpeed, MdPhoneIphone } from "react-icons/md";
 import { FiUsers } from "react-icons/fi";
-
 import { HiTrendingUp } from "react-icons/hi";
 
 export const leftFeatures = [
@@ -51,3 +42,4 @@ export const rightFeatures = [
     desc: "Continuously innovate with advanced technology to shape the future of mobility.",
   },
 ];
+

@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { HiArrowUpRight } from "react-icons/hi2";
 
@@ -21,14 +23,9 @@ const Partners = () => {
   ];
 
   return (
-    <section
-      id="partners"
-      className="py-24 bg-[#020625]"
-    >
+    <section id="partners" className="py-24 bg-[#020625]">
       <div className="max-w-7xl mx-auto px-6">
-
         {/* Heading */}
-
         <div className="text-center mb-16">
           <p className="text-[#95FF00] uppercase tracking-widest font-semibold mb-4">
             Trusted Partners
@@ -39,16 +36,14 @@ const Partners = () => {
           </h2>
 
           <p className="text-white/60 max-w-2xl mx-auto">
-            We collaborate with industry-leading charging
-            infrastructure providers and technology partners
-            to deliver reliable EV charging solutions.
+            We collaborate with industry-leading charging infrastructure
+            providers and technology partners to deliver reliable EV charging
+            solutions.
           </p>
         </div>
 
         {/* Partner Cards */}
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
           {partners.map((partner, index) => (
             <motion.a
               key={partner.name}
@@ -91,35 +86,17 @@ const Partners = () => {
                 Strategic EV charging infrastructure partner.
               </p>
 
-              <div
-                className="
-                  flex
-                  items-center
-                  gap-2
-                  text-[#95FF00]
-                  font-medium
-                "
-              >
+              <div className="flex items-center gap-2 text-[#95FF00] font-medium">
                 Visit Website
-
-                <HiArrowUpRight
-                  className="
-                    transition-transform
-                    duration-300
-                    group-hover:translate-x-1
-                    group-hover:-translate-y-1
-                  "
-                />
+                <HiArrowUpRight className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
               </div>
-
             </motion.a>
           ))}
-
         </div>
-
       </div>
     </section>
   );
 };
 
 export default Partners;
+

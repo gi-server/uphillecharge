@@ -1,11 +1,8 @@
+"use client";
+
 import { motion } from "framer-motion";
 
-const PurposeFeature = ({
-  Icon,
-  title,
-  desc,
-  right = false,
-}) => {
+const PurposeFeature = ({ Icon, title, desc, right = false }) => {
   return (
     <motion.div
       whileHover={{ scale: 1.03 }}
@@ -31,10 +28,7 @@ const PurposeFeature = ({
           shrink-0
         "
       >
-        <Icon
-          size={24}
-          className="text-[#95FF00] md:text-[30px]"
-        />
+        <Icon size={24} className="text-[#95FF00] md:text-[30px]" />
       </div>
 
       {/* Content */}
@@ -65,3 +59,4 @@ const PurposeFeature = ({
 };
 
 export default PurposeFeature;
+
